@@ -1,4 +1,4 @@
-define(["require", "exports", "./menu-aplicaciones.service", "../../core/utils", "../../core/helper.inei"], function (require, exports, menu_aplicaciones_service_1, utils, helper_inei_1) {
+define(["require", "exports", './menu-aplicaciones.service', '../../core/utils', '../../core/helper.inei'], function (require, exports, menu_aplicaciones_service_1, utils, helper_inei_1) {
     "use strict";
     var objectHelper = new helper_inei_1.ObjectHelper();
     var proyectosService = new menu_aplicaciones_service_1.ProyectosService();

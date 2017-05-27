@@ -42,7 +42,7 @@ define(["require", "exports"], function (require, exports) {
                 data: { rol_id: rol, user_id: user_id }
             });
         };
-        UsuarioService.prototype["delete"] = function (pk) {
+        UsuarioService.prototype.delete = function (pk) {
             return $.ajax({
                 url: "" + this.url.usuario + pk + "/",
                 type: 'DELETE'

@@ -1,4 +1,4 @@
-define(["require", "exports", "../core/helper.inei", "../core/utils"], function (require, exports, helper_inei_1, utils_1) {
+define(["require", "exports", '../core/helper.inei', '../core/utils'], function (require, exports, helper_inei_1, utils_1) {
     "use strict";
     var sessionHelper = new helper_inei_1.SessionHelper();
     var objectHelper = new helper_inei_1.ObjectHelper();

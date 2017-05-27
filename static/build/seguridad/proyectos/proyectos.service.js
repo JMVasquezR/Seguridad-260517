@@ -54,7 +54,7 @@ define(["require", "exports"], function (require, exports) {
                 data: data
             });
         };
-        ProyectosService.prototype["delete"] = function (pk) {
+        ProyectosService.prototype.delete = function (pk) {
             return $.ajax({
                 url: "" + this.url.proyectos + pk,
                 type: 'DELETE'

@@ -27,7 +27,7 @@ define(["require", "exports"], function (require, exports) {
                 data: obj
             });
         };
-        RolesService.prototype["delete"] = function (pk) {
+        RolesService.prototype.delete = function (pk) {
             return $.ajax({
                 url: "" + this.url + pk + "/",
                 type: 'DELETE'
@@ -69,7 +69,7 @@ define(["require", "exports"], function (require, exports) {
                 data: obj
             });
         };
-        PermisosService.prototype["delete"] = function (pk) {
+        PermisosService.prototype.delete = function (pk) {
             return $.ajax({
                 url: "" + this.url.permisos + pk + "/",
                 type: 'DELETE'

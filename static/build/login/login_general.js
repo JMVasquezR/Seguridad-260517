@@ -4,7 +4,7 @@
 /**
  * Created by lfarfan on 19/02/2017.
  */
-define(["require", "exports", "../core/utils", "./login.service"], function (require, exports, utils_1, login_service_1) {
+define(["require", "exports", '../core/utils', './login.service'], function (require, exports, utils_1, login_service_1) {
     "use strict";
     var Login = (function () {
         function Login() {

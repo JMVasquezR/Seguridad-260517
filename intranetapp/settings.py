@@ -235,5 +235,6 @@ CORS_ORIGIN_WHITELIST = (
     'cpv.inei.gob.pe:5050',
     'cpv.inei.gob.pe:85',
     '172.16.2.205:8000',
+    '172.16.2.205:8080',
     'localhost:8001'
 )

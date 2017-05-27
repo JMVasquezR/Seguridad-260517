@@ -1,4 +1,4 @@
-define(["require", "exports", "../webservices/webservice.service"], function (require, exports, webservice_service_1) {
+define(["require", "exports", '../webservices/webservice.service'], function (require, exports, webservice_service_1) {
     "use strict";
     var WebServiceView = (function () {
         function WebServiceView() {

@@ -1,7 +1,7 @@
 /**
  * Created by Administrador on 21/04/2017.
  */
-define(["require", "exports", "auth.service", "../core/core"], function (require, exports, auth_service_1, core_1) {
+define(["require", "exports", 'auth.service', '../core/core'], function (require, exports, auth_service_1, core_1) {
     "use strict";
     var AuthController = (function () {
         function AuthController() {

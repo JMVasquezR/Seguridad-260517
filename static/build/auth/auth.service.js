@@ -1,4 +1,4 @@
-define(["require", "exports", "../core/core"], function (require, exports, core_1) {
+define(["require", "exports", '../core/core'], function (require, exports, core_1) {
     "use strict";
     var LoginService = (function () {
         function LoginService() {

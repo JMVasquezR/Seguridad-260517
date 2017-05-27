@@ -1,4 +1,4 @@
-define(["require", "exports", "./usuarios.service", "../usuarios.roles/roles.service", "../../core/utils"], function (require, exports, usuarios_service_1, roles_service_1, utils) {
+define(["require", "exports", './usuarios.service', '../usuarios.roles/roles.service', '../../core/utils'], function (require, exports, usuarios_service_1, roles_service_1, utils) {
     "use strict";
     var UsuarioController = (function () {
         function UsuarioController() {
@@ -192,7 +192,7 @@ define(["require", "exports", "./usuarios.service", "../usuarios.roles/roles.ser
         UsuarioController.prototype.deleteUsuario = function () {
             var _this = this;
             if (this.usuario_selected !== null) {
-                this.usuarioService["delete"](this.usuario_selected.id).done(function () {
+                this.usuarioService.delete(this.usuario_selected.id).done(function () {
                     utils.showSwalAlert('Se elimino el usuario correctamente!', 'Exito!', 'success');
                     _this.getUsuarios();
                 }).fail(function () {
